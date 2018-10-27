@@ -1,0 +1,7 @@
+sudo airmon-ng start wlp8s0  ----- enter monitor mode
+sudo airmon-ng stop wlp8s0mon ---- exit monitor mode
+iwconfig --- check mode
+
+sudo airodump-ng wlp8s0mon  ------ see all available networks
+
+sudo ifconfig wlp8s0 promisc --- enter promisc mode
